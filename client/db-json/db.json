@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Prabhat Trivedi",
+      "userId": "prabhat",
+      "password": "123",
+      "role": "admin",
+      "rememberme": "true"
+    },
+    {
+      "id": 2,
+      "name": "Amit Kumar",
+      "userId": "amit",
+      "password": "123",
+      "role": "user",
+      "rememberme": "false"
+    }
+  ],
+  "weatherforecast": [
+    { "id": 1, "date": "2025-10-24", "temperatureC": 26, "summary": "Sunny" },
+    { "id": 2, "date": "2025-10-25", "temperatureC": 19, "summary": "Cloudy" },
+    { "id": 3, "date": "2025-10-26", "temperatureC": 22, "summary": "Mild" }
+  ]
+}
