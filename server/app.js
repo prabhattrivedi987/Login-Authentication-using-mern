@@ -29,6 +29,13 @@ let users = [
     name: "John Doe",
     email: "john@example.com",
   },
+  {
+    id: 3,
+    userId: "user2",
+    password: bcrypt.hashSync("12345", 8),
+    name: "John",
+    email: "john@example.com",
+  },
 ];
 
 // Token blacklist for server-side logout
